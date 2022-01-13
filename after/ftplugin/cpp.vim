@@ -11,7 +11,7 @@ let g:clang_format#style_options = {
             \ "Standard" : "C++11"}
 
 " map to <Leader>cf in C++ code
-nnoremap <buffer><Leader>cf :<C-u>Autoformat<CR>
-vnoremap <buffer><Leader>cf :Autoformat<CR>
+nnoremap <buffer><Leader>cf :<C-u>ClangFormat<CR>
+vnoremap <buffer><Leader>cf :ClangFormat<CR>
 
 setlocal commentstring=//\ %s
